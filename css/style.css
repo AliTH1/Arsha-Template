@@ -190,6 +190,16 @@ a{
 }
 
 
+.countdown-timer{
+    text-align: center;
+    font-size: 32px;
+    color: white
+}
+
+.countdown-timer span{
+    color: rgb(248, 185, 126)
+}
+
 @media only screen and (min-width: 768px) {
     .get-started-button{
         padding: 5px 10px;
