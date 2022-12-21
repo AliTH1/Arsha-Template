@@ -1,36 +1,36 @@
-sell_item_1_price = 600
-sell_item_2_price = 300
-sell_item_3_price = 1200
-sell_item_4_price = 1000
+var sellItem1Price = 600;
+var sellItem2Price = 300;
+var sellItem3Price = 1200;
+var sellItem4Price = 1000;
 
 
-document.getElementById("sell-item-1").innerHTML = sell_item_1_price + "m"
-document.getElementById("sell-item-2").innerHTML = sell_item_2_price + "m"
-document.getElementById("sell-item-3").innerHTML = sell_item_3_price + "m"
-document.getElementById("sell-item-4").innerHTML = sell_item_4_price + "m"
+document.getElementById("sell-item-1").innerHTML = sellItem1Price + "m";
+document.getElementById("sell-item-2").innerHTML = sellItem2Price + "m";
+document.getElementById("sell-item-3").innerHTML = sellItem3Price + "m";
+document.getElementById("sell-item-4").innerHTML = sellItem4Price + "m";
 
-function sell_item_1(item_1_price){
-    return sell_item_1_price -= item_1_price
+function sellItem1(Item1Price){
+    return sellItem1Price -= Item1Price;
 }
 
-function sell_item_2(item_2_price){
-    return sell_item_2_price -= item_2_price
+function sellItem2(Item2Price){
+    return sellItem2Price -= Item2Price;
 }
 
-function sell_item_3(item_3_price){
-    return sell_item_3_price -= item_3_price
+function sellItem3(Item3Price){
+    return sellItem3Price -= Item3Price;
 }
 
-function sell_item_4(item_4_price){
-    return sell_item_4_price -= item_4_price
+function sellItem4(Item4Price){
+    return sellItem4Price -= Item4Price;
 }
 
-sell_item_1(200)
-sell_item_2(50)
-sell_item_3(100)
-sell_item_4(300)
+sellItem1Price(200);
+sellItem2Price(50);
+sellItem3Price(100);
+sellItem4Price(300);
 
-document.getElementById("sell-item-1").innerHTML = sell_item_1_price + "m"
-document.getElementById("sell-item-2").innerHTML = sell_item_2_price + "m"
-document.getElementById("sell-item-3").innerHTML = sell_item_3_price + "m"
-document.getElementById("sell-item-4").innerHTML = sell_item_4_price + "m"
+document.getElementById("sell-item-1").innerHTML = sellItem1Price + "m";
+document.getElementById("sell-item-2").innerHTML = sellItem2Price + "m";
+document.getElementById("sell-item-3").innerHTML = sellItem4Price + "m";
+document.getElementById("sell-item-4").innerHTML = sellItem4Price + "m";
