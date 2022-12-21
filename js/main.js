@@ -1,3 +1,5 @@
+"use strict"
+
 var sellItem1Price = 600;
 var sellItem2Price = 300;
 var sellItem3Price = 1200;
