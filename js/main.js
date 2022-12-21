@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 var sellItem1Price = 600;
 var sellItem2Price = 300;
